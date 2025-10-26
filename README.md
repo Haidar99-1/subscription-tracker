@@ -47,6 +47,17 @@ Subscription Tracker is a backend API service that helps users manage and track 
 ### Installation
 
 1. Clone the repository:
-```bash
-git clone <repository-url>
-cd subscription-tracker
+    ```bash
+    git clone https://github.com/Haidar99-1/subscription-tracker
+    cd subscription-tracker
+    ```
+
+2. Install dependencies:
+    ```bash
+    npm install
+    ```
+
+3. Run tests to ensure everything is set up correctly:
+    ```bash
+    npm run test
+    ```
