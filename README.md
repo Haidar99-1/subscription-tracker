@@ -12,7 +12,7 @@ A robust REST API for managing personal subscriptions.
 
 ## 🎯 Introduction
 
-Subscription Tracker is a backend API service that helps users manage and track their recurring subscriptions. Whether it's Netflix, Spotify, or any other subscription service, this API provides comprehensive tools to monitor costs, renewal dates, and payment methods all in one place.
+Subscription Tracker is a backend API service that helps users manage and track their recurring subscriptions. Whether it's Netflix, Spotify, or any other subscription service, this API provides comprehensive tools to track costs, renewal dates, and statuses.
 
 ## 🛠️ Tech Stack
 
@@ -61,3 +61,29 @@ Subscription Tracker is a backend API service that helps users manage and track 
     ```bash
     npm run test
     ```
+
+4. Set up environment variables
+
+Create a new file named .env.local in the root of your project and add the following content:
+
+```bash
+PORT=5500
+SERVER_URL="http://localhost:5500"
+
+# ENVIRONMENT
+NODE_ENV=development
+
+# DATABASE
+DB_URI=
+
+# JWT AUTH
+JWT_SECRET=
+JWT_EXPIRES_IN="1d"
+```
+
+Fill in DB_URI and JWT_SECRET with your MongoDB connection string and a strong secret for signing JWTs. Do NOT commit secrets to version control. Consider adding .env.local to your .gitignore.
+
+
+## Code Snippets
+
+(Additional snippets and documentation go here)
