@@ -86,4 +86,16 @@ Fill in DB_URI and JWT_SECRET with your MongoDB connection string and a strong s
 
 ## Code Snippets
 
-(Additional snippets and documentation go here)
+Example subscription (dummy data):
+
+```json
+{
+  "name": "Netflix",
+  "price": 20.00,
+  "currency": "USD",
+  "frequency": "monthly",
+  "category": "Entertainment",
+  "startDate": "2024-01-20T00:00:00.000Z",
+  "paymentMethod": "Credit Card"
+}
+```
