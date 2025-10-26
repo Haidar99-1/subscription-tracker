@@ -11,9 +11,4 @@ subscriptionRouter.get('/:id', authorize,getSubscriptionsById);
 subscriptionRouter.put('/:id', authorize,updateSubscriptionById);
 
 
-
-subscriptionRouter.put('/:id/cancel', (req, res) => {res.send({title: "Cancel a subscription"})});
-
-subscriptionRouter.put('/upcoming-renewels', (req, res) => {res.send({title: "GET upcoming renewals"})});
-
 export default subscriptionRouter;
