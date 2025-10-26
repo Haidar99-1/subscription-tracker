@@ -21,7 +21,6 @@ Subscription Tracker is a backend API service that helps users manage and track 
 - **MongoDB** - NoSQL database
 - **Mongoose** - ODM for MongoDB
 - **JWT** - Authentication
-- **Swagger** - API documentation
 - **Arcjet** - Security middleware
 
 ## ✨ Features
