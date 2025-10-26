@@ -1,6 +1,6 @@
 # Subscription Tracker API
 
-A robust REST API for managing personal subscriptions with automated renewal tracking and notifications.
+A robust REST API for managing personal subscriptions.
 
 ## 📋 Table of Contents
 
