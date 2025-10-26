@@ -23,7 +23,6 @@ Subscription Tracker is a backend API service that helps users manage and track 
 - **JWT** - Authentication
 - **Swagger** - API documentation
 - **Arcjet** - Security middleware
-- **QStash** - Background job processing
 
 ## ✨ Features
 
